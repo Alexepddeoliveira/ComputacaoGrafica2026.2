@@ -56,5 +56,63 @@ O método de Viola-Jones (Haar Cascade) aplica esse princípio para localizar fa
 
 | Imagem de Entrada | Imagem com Detecção |
 | :---: | :---: |
-| ![Entrada Rosto](rosto_entrada.jpg) | ![Saída Detecção](saida_deteccao_rosto.jpg) |
+| ![Entrada Rosto](rosto_entrada.png) | ![Saída Detecção](saida_deteccao_rosto.jpg) |
 | *Matriz de entrada contendo indivíduos* | *Bounding boxes $(x, y, w, h)$ extraídas e sobrepostas* |
+
+## 3. Visualização Computacional (Visualização de Dados)
+
+### Aplicação: Superfície Tridimensional e Mapeamento Escalar (Matplotlib)
+
+A Visualização Computacional opera sobre o princípio de transformar **dados numéricos abstratos na entrada** em uma **representação gráfica visual na saída**. O foco central é converter grandezas matemáticas e estatísticas em propriedades perceptíveis ao olho humano (posição, geometria e cor), viabilizando a interpretação de fenômenos complexos sem exigir inspeção manual de matrizes numéricas.
+
+A renderização da superfície tridimensional orienta-se por quatro etapas fundamentais:
+
+* **1. Discretização de Domínio (Meshgrid):**  
+  Variáveis contínuas são amostradas em intervalos regulares nos eixos $X$ e $Y$. A matriz de grade (*meshgrid*) combina esses vetores, gerando um plano base ortogonal sobre o qual cada ponto do espaço amostral é indexado numericamente.
+
+* **2. Avaliação de Campo Escalar ($Z = f(X, Y)$):**  
+  Aplica-se uma função multivariável contínua sobre a grade para calcular a magnitude da resposta em cada nó da malha, gerando a matriz de elevação tridimensional que descreve a geometria da superfície.
+
+* **3. Mapeamento de Cores (Colormapping):**  
+  Para facilitar a cognição visual, a amplitude numérica do eixo $Z$ é mapeada linearmente sobre uma escala cromática (*colormap Viridis*). Valores mínimos e máximos recebem gradações tonais contrastantes, permitindo aferir a magnitude da variável sem depender exclusivamente da leitura dos eixos.
+
+* **4. Projeção e Remoção de Superfícies Ocultas:**  
+  A estrutura de dados 3D é convertida para o plano bidimensional da tela através de transformações de projeção em perspectiva, resolvendo a oclusão visual para garantir que as facetas frontais da malha sobreponham corretamente os planos de fundo.
+
+---
+
+### Demonstração Prática
+
+| Estrutura Matricial (Entrada Numérica) | Representação Gráfica (Saída Visual) |
+| :---: | :---: |
+| Matrizes abstratas $(X, Y, Z)$ de dimensão $100 \times 100$ | ![Saída Visualização](saida_visualizacao.png) |
+| *Exemplo: $Z = \sin\left(\sqrt{X^2 + Y^2}\right)$* | *Superfície contínua interpolada com escala cromática* |
+
+## 4. Síntese de Imagens (Computação Gráfica Clássica)
+
+### Aplicação: Renderização Tridimensional e Projeção em Perspectiva (OpenGL)
+
+A Síntese de Imagens parte do modelo conceitual em que a **entrada são descrições matemáticas de um mundo virtual** (coordenadas de vértices, topologia de malhas, parâmetros de iluminação e posicionamento de câmera) e a **saída é uma imagem digital renderizada** (pixels coloridos na tela). Em vez de manipular dados pré-existentes, o sistema constrói ativamente a cena visual através de um pipeline gráfico.
+
+O processo de síntese do cubo tridimensional estrutura-se sobre quatro pilares computacionais:
+
+* **1. Modelagem Topológica (Vértices e Arestas):**  
+  A entidade 3D é descrita formalmente no espaço euclidiano por uma coleção discreta de coordenadas cartesianas $(x, y, z)$ interligadas por tabelas de conectividade (arestas e faces poligonais), compondo a malha geométrica.
+
+* **2. Pipeline de Matrizes de Transformação:**  
+  O objeto sofre multiplicações matriciais sucessivas: a matriz de modelo posiciona e rotaciona o cubo no mundo virtual; a matriz de visão translada o sistema para o referencial da câmera; e a matriz de projeção em perspectiva (`gluPerspective`) simula o olho humano, comprimindo objetos distantes em direção ao ponto de fuga.
+
+* **3. Rasterização e Projeção Bidimensional:**  
+  Os vetores tridimensionais calculados após o recorte (*clipping*) são projetados no plano da tela e convertidos em fragmentos discretos de pixels, preenchendo as linhas com as cores definidas pela GPU.
+
+* **4. Buffering Duplo (*Double Buffering*):**  
+  A geração gráfica ocorre em um buffer de memória secundário (*back buffer*). Após o término dos cálculos geométricos, o buffer é comutado instantaneamente com o display ativo (*front buffer*), garantindo a integridade visual da imagem final sem artefatos de desenho incompleto.
+
+---
+
+### Demonstração Prática
+
+| Modelo Geométrico (Entrada Vetorial) | Projeção Sintetizada (Saída Renderizada) |
+| :---: | :---: |
+| 8 Vértices tridimensionais em $\mathbb{R}^3$ e 12 Arestas lineares | ![Saída Síntese](saida_sintese.png) |
+| *Definição matemática da malha* | *Rasterização gerada via pipeline do OpenGL* |
