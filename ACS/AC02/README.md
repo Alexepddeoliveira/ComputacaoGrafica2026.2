@@ -14,7 +14,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
   * Nova posição: $P'(6, 1)$
   * Coordenadas alteradas: Ambas as coordenadas ($x$ e $y$) sofreram alteração.
 
-![Exercício 1](graficos/ex01.png)
+![Exercício 1](Graficos/ex01.png)
 
 ---
 
@@ -29,7 +29,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
   * Novas coordenadas: $A'(2, 2)$, $B'(6, 2)$ e $C'(4, 8)$.
   * Efeito geométrico: O comprimento das arestas dobra e a área total da figura quadruplica ($2^2 = 4\times$), preservando a proporção angular original.
 
-![Exercício 2](graficos/ex02.png)
+![Exercício 2](Graficos/ex02.png)
 
 ---
 
@@ -43,7 +43,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Novas coordenadas: $A'(2, 0.5)$, $B'(6, 0.5)$ e $C'(4, 2)$. A figura sofre distorção anisotrópica (expansão na base e compressão na altura).
 
-![Exercício 3](graficos/ex03.png)
+![Exercício 3](Graficos/ex03.png)
 
 ---
 
@@ -56,7 +56,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Nova posição: $P'(0, 1)$.
 
-![Exercício 4](graficos/ex04.png)
+![Exercício 4](Graficos/ex04.png)
 
 ---
 
@@ -73,7 +73,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Vértices rotacionados: $A'(1.414, 0)$, $B'(3.536, 2.121)$, $C'(5.657, 0)$ e $D'(3.536, -2.121)$.
 
-![Exercício 5](graficos/ex05.png)
+![Exercício 5](Graficos/ex05.png)
 
 ---
 
@@ -86,7 +86,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Nova posição: $P'(-2, 5)$.
 
-![Exercício 6](graficos/ex06.png)
+![Exercício 6](Graficos/ex06.png)
 
 ---
 
@@ -100,7 +100,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Novas coordenadas: $A'(2, -3)$, $B'(4, -3)$ e $C'(3, -5)$.
 
-![Exercício 7](graficos/ex07.png)
+![Exercício 7](Graficos/ex07.png)
 
 ---
 
@@ -113,7 +113,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Nova posição: $P'(8, 3)$.
 
-![Exercício 8](graficos/ex08.png)
+![Exercício 8](Graficos/ex08.png)
 
 ---
 
@@ -130,7 +130,7 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Posição final após a composição: $P'(-2, 8)$.
 
-![Exercício 9](graficos/ex09.png)
+![Exercício 9](Graficos/ex09.png)
 
 ---
 
@@ -150,4 +150,4 @@ Este trabalho apresenta a fundamentação teórica, a resolução analítica e a
 * **Resposta:**
   * Vértices finais: $A'(1.5, 2.0)$, $B'(-4.5, 2.0)$, $C'(-4.5, 3.0)$ e $D'(1.5, 3.0)$.
 
-![Exercício 10](graficos/ex10.png)
+![Exercício 10](Graficos/ex10.png)
