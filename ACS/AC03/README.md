@@ -19,6 +19,7 @@ Nesta prática foi desenvolvida a cena tridimensional **"Parque Geométrico"**, 
 
 
 | Demonstração da Animação (Keyframes) |
+| :---: | 
 | ![Animação Parque Geométrico](AC03.gif) |
 | *Translação/rotação 2D e escala/rotação 3D combinadas* |
 
