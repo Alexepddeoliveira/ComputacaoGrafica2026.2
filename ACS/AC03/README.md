@@ -14,7 +14,7 @@ Nesta atividade prática foi desenvolvida a cena tridimensional **"Parque Geomé
 
 | Render da Cena: Parque Geométrico |
 | :---: |
-| ![Render Final](AC03_render.png) |
+| ![Render Final](AC03_AlexOliveira.png) |
 | *Composição espacial contendo elementos 2D (plano XY) e sólidos 3D transformados* |
 
 ---
