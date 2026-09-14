@@ -13,14 +13,13 @@ Nesta prática foi desenvolvida a cena tridimensional **"Parque Geométrico"**, 
 ## 2. Evidências Visuais
 
 | Render Estático (Cena Final) |
-| :---: | 
-| ![Render Final](AC03_AlexOliveira.png) |
+| :---: |
+| <img src="AC03_AlexOliveira.png" alt="Render Final" width="600"> |
 | *Composição espacial com elementos 2D e sólidos 3D* |
-
 
 | Demonstração da Animação (Keyframes) |
 | :---: | 
-| ![Animação Parque Geométrico](AC03.gif) |
+| <img src="AC03.gif" alt="Animação Parque Geométrico" width="600"> |
 | *Translação/rotação 2D e escala/rotação 3D combinadas* |
 
 ---
