@@ -17,7 +17,6 @@ Nesta prática foi desenvolvida a cena tridimensional **"Parque Geométrico"**, 
 | ![Render Final](AC03_AlexOliveira.png) |
 | *Composição espacial com elementos 2D e sólidos 3D* |
 | Demonstração da Animação (Keyframes) |
-| :---: |
 | ![Animação Parque Geométrico](AC03.gif) |
 | *Translação/rotação 2D e escala/rotação 3D combinadas* |
 
