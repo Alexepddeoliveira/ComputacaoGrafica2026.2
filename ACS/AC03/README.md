@@ -4,7 +4,7 @@
 
 Nesta atividade prática foi desenvolvida a cena tridimensional **"Parque Geométrico"**, integrando primitivas bidimensionais no plano cartesiano XY e sólidos no espaço afim 3D. 
 
-* **Transformações 2D (Plano XY):** Foram aplicadas operações de translação linear de coordenadas, rotação pura em torno do eixo $Z$ (preservando a coplanaridade) e escala anisotrópica nos eixos $X$ e $Y$ sobre as primitivas planas (`obj2d_quadrado`, `obj2d_triangulo` e `obj2d_circulo`).
+* **Transformações 2D (Plano XY):** Foram aplicadas operações de translação linear de coordenadas, rotação pura em torno do eixo $Z$ e escala anisotrópica nos eixos $X$ e $Y$ sobre as primitivas planas (`obj2d_quadrado`, `obj2d_triangulo` e `obj2d_circulo`).
 * **Transformações 3D (Espaço Tridimensional):** Sobre os sólidos (`obj3d_cubo`, `obj3d_cilindro` e `obj3d_esfera`), foram executadas translações no eixo vertical $Z$, rotações combinadas em múltiplos eixos (ângulos de Euler) e escalas diferenciais nos eixos $X$, $Y$ e $Z$.
 * **Automação vs. Manual:** A hierarquia de coleções, inserção paramétrica das primitivas, conversão trigonométrica de rotações e interpolação temporal de keyframes (quadros 1 a 120) foram automatizadas via Python (`bpy`). O enquadramento focal da câmera e inspeção dos canais de iluminação receberam ajustes finos via interface gráfica do Blender.
 
