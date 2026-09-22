@@ -9,7 +9,7 @@
 
 ## Visualização do Modelo (Render AP1)
 
-![Render Final AP1 - Geometria e Objetos Autorais](Aps/AP1/Ap1_render.png)
+![Render Final AP1 - Geometria e Objetos Autorais](Ap1_render.png)
 
 ---
 
