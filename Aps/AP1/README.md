@@ -21,12 +21,15 @@ O projeto apresenta uma animação publicitária de 15 segundos para o Ibmec, mo
 As letras da palavra `Ibmec` foram modeladas com volume 3D e bordas levemente chanfradas, garantindo um visual limpo e profissional.
 
 Imagens da Viweport
+
 ![Imagens da Viewport](BlenderInterface.jpeg)
 
 Detalhes do pingo do I
+
 ![Detalhe do Pingo do I](DetalhesDoNucleoDeEnergia.jpeg)
 
 Detalhes dos foguetes
+
 ![Detalhe dos Foguetes](Foguetes.jpeg)
 
 
