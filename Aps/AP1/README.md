@@ -19,6 +19,10 @@
 O projeto apresenta uma animação publicitária de 15 segundos para o Ibmec, mostrando a chegada marcante da instituição no campus da Barra da Tijuca, no Rio de Janeiro. Em vez de deixar as letras paradas em um fundo vazio, o logotipo interage com o próprio prédio da faculdade, trazendo movimento com elementos de tecnologia, engenharia e precisão.
 
 As letras da palavra `Ibmec` foram modeladas com volume 3D e bordas levemente chanfradas, garantindo um visual limpo e profissional.
+![Imagens da Viewport](BlenderInterface.jpeg)
+![Detalhe do Pingo do I](DetalhesDoNucleoDeEnergia.jpeg)
+![Detalhe dos Foguetes](Foguetes.jpeg)
+
 
 ---
 
@@ -31,6 +35,9 @@ Todos os três objetos da cena foram modelados do zero para compor a narrativa:
 | **01. Esfera Mecânica (Pingo do "i")** | `autoral_01_nucleo_esfera` | Esfera oca com recorte frontal, detalhes nas bordas e engrenagens completas modeladas no interior, conectadas para girar juntas. | Funciona como o pingo da letra "i" e representa a inovação, o raciocínio e a engenharia do Ibmec. |
 | **02. Sapatos de Foguete da Letra "M"** | `autoral_02_propulsores_m` | Formato cônico com anéis de metal ao redor, bocal de saída na base e chamas modeladas saindo de baixo. | Ficam nos três apoios da letra "m", permitindo que ela desça dos céus e pouse com firmeza no chão como um módulo de alta tecnologia. |
 | **03. Prédio do Ibmec Barra** | `autoral_03_predio_ibmec` | Estrutura principal com janelas espelhadas afundadas na parede, entrada monumental com colunas e arco curvado no topo. | É o cenário real onde tudo acontece, dando escala e contexto de mundo real para a chegada da marca. |
+
+![Organização no Blender](Organização.jpeg)
+
 
 ---
 
