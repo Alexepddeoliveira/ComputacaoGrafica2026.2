@@ -7,6 +7,12 @@
 
 ---
 
+## Visualização do Modelo (Render AP1)
+
+![Render Final AP1 - Geometria e Objetos Autorais](Aps/Ap1_render.png)
+
+---
+
 ## 1. Documentação e Autoria (1,0 Ponto)
 
 ### 1.1. Ideia Geral do Projeto
